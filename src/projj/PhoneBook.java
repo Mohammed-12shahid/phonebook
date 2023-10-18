@@ -1,15 +1,15 @@
 package projj;
 
 public class PhoneBook {
-	int phNo;
+	String phNo;
 	String Name;
 	String address;
-	public PhoneBook(int phNo,String Name,String address) {
+	public PhoneBook(String phNo,String Name,String address) {
 		this.phNo=phNo;
 		this.Name=Name;
 		this.address=address;
 	}
-	public int getphNo() {
+	public String getphNo() {
 		return phNo;
 	}
 	public void setName(String Name) {
